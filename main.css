@@ -1,0 +1,148 @@
+ {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:  #fff2e6;
+  font-family: Helvetica;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:  #e60000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e0ebeb;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:   #ff9999;
+  color: white;
+}
+
+.print{
+ margin: 20px;
+  border: 1px solid red;
+  border-radius: 100px;
+  padding: 5px;
+  width: 150px;
+}
+
+h1{
+  text-align: center;
+  color:   #ff6666;
+}
+
+/*slider*/
+ .slider-holder
+        {
+            width: 1000px;
+            height: 650px;
+            background-color: gray;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .slider-holder img{
+         width: 100%;
+          border-radius: 8px;
+          height: 100%;
+        }
+      .next{
+       
+        cursor: pointer;
+        position: absolute;
+        top: 135%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color:  white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+        background-color:   #e60000;
+        border: 2px solid   #ffb3b3;
+        border-radius: 25px;
+        
+      }
+      .cat_id{
+
+        cursor: pointer;
+        position: absolute;
+        top: 70%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color:  white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+        background-color:   #e60000;
+        
+
+      }
+      
+      
+
+       
+        .image-holder
+        {
+            width: 2400px;
+           /* background-color: red;*/
+            height: 400px;
+            clear: both;
+            position: relative;
+           
+            
+        }
+       
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+
+        /*slider*/
+
+/*footer*/
+        
+         .copy-right {
+            border-top: 1px solid  #333;
+            padding: 40px;
+            text-align: center;
+            margin-top: 20px;
+            color: #ff6666;
+          }
+
+
+/*footer*/
+
+
+
+
+

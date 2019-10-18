@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div class="topnav">
+      <a  href="../index.html">Home</a>
+      <a  class="active" href="adopt.html">Adopt</a>
+      <a href="../about/about.html">Our Goal</a>
+      <a  href="../search/index.html">Our Goal</a>
+</div>
+
+  <!-- Trigger/Open The Modal -->
+<button class="btn-adopt" id="btn_adopt">Adpt a cat</button>
+
+<div id="div1"></div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+
+    <span class="close">&times;</span>
+    <form action="/action_page.php" onsubmit="return validateForm()" name="adoptForm">
+         <label>Name</label> <br>
+         <input type="text" name="name" ><br>
+         <label>Breed</label>  <br>
+         <input type="text" name="breed" ><br>
+         <label>Age</label>  <br>
+         <input type="text" name="age" ><br>
+         <label>Color</label>  <br>
+         <input type="text" name="color" ><br>
+         <label>Image</label>  <br>
+         <input type="file" name="image" ><br>
+          
+          <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

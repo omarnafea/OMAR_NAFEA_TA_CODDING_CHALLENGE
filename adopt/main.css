@@ -1,0 +1,157 @@
+ {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff2e6;
+  font-family: Helvetica;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:   #e60000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e0ebeb;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:  #ff9999;
+  color: white;
+}
+
+
+
+
+
+
+
+
+/*adopt page*/
+
+.btn-adopt{
+  background-color:  #e60000;
+  color:     white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+   cursor:pointer;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+}
+th{
+  background-color:   #ff9999;
+  color:     white;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+td{
+  color: #e60000;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 40%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  margin-left:400px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+ .modal-content form{
+  width: 100%;
+  align-content: center;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #e60000;
+}
+
+label{
+ color: #e60000;
+}
+
+input[type=file] {
+   color: white;
+   background-color: #e60000;
+   padding: 15px;
+   height: 45px;
+}
+
+input[type=submit] {
+   width: 20%;
+   color: white;
+   background-color: #e60000;
+   height: 50px;
+   font-size: 20px;
+   margin-top: 30px;
+    border: 2px solid #e60000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+       
+        
+       
+       
+        
